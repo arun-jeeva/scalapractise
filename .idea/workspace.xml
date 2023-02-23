@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5651736-a423-4fa3-b366-6e77e49a0f81" name="Changes" comment="Initial 2 questions in Assignment 1">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/CheckingAccount.scala" afterDir="false" />
+    <list default="true" id="b5651736-a423-4fa3-b366-6e77e49a0f81" name="Changes" comment="Initial 3 questions in Assignment 1. 3rd wrong">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Conversionsc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Conversionsc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/CheckingAccount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/CheckingAccount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.2/update/update_cache_3/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.2/update/update_cache_3/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/output" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +41,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "scala_project_settings_configurable.last_selected_tab_index": "7",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;scala_project_settings_configurable.last_selected_tab_index&quot;: &quot;7&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Trans" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Trans" />
@@ -96,12 +98,20 @@
       <option name="project" value="LOCAL" />
       <updated>1677116711012</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial 3 questions in Assignment 1. 3rd wrong">
+      <created>1677122184852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677122184852</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial 2 questions in Assignment 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial 2 questions in Assignment 1" />
+    <MESSAGE value="Initial 3 questions in Assignment 1. 3rd wrong" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial 3 questions in Assignment 1. 3rd wrong" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

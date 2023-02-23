@@ -1,21 +1,19 @@
 class BankAccount (val initBal: Double) {
-  private var balance = initBal
-  def deposit(amount: Double) = {
+  var balance: Double = initBal
+  def deposit(amount: Double): Unit = {
     balance += amount
-    println(balance)
   }
-  def withdraw(amount: Double) = {
+  def withdraw(amount: Double): Unit = {
     balance -= amount
-    println(balance)
   }
 }
 
 
 class CheckingAccount  (override val initBal: Double,val charges:Double) extends BankAccount(initBal) {
 
-  var initBalval: Double = initBal
-  def addcharge(charge: Int): Unit = {
-    initBalval = initBalval + charge
+  private var initBalval: Double = initBal
+  def addcharge(): Unit = {
+    initBalval = initBalval + charges
     println("New Balance :" + initBalval )
 
   }
@@ -23,11 +21,11 @@ class CheckingAccount  (override val initBal: Double,val charges:Double) extends
 
 object Trans {
   def main(args: Array[String]): Unit = {
-    val Transact = new CheckingAccount(10,1)
-    Transact.addcharge(1)
+    val balanceval: Double = 100.00
+    val Transact = new CheckingAccount(balanceval,1)
     Transact.deposit(100)
-    Transact.addcharge(1)
+    Transact.addcharge()
     Transact.withdraw(50)
-    Transact.addcharge(1)
+    Transact.addcharge()
   }
 }
