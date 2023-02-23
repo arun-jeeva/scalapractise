@@ -20,7 +20,7 @@ object Conversions {
 }
 
 
-object Main {
+object Bank {
   def main(args: Array[String]): Unit = {
     val m = new Conversionsc()
     m.conv()
