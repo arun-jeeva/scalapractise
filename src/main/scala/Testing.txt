@@ -1,0 +1,5 @@
+Line 01 : Hello this is a testingsdfsdfsdfsdfsd file to check
+Line 02 : if scala can readsdfsdfsdf and write in to a file
+Line 03 : and also to print the file in commanddfsdfsdfsdf line
+Line 04 : I have another exercise to
+Line 05 : tell me the words whichsdfsdfsdfsdf are more than 10 letters

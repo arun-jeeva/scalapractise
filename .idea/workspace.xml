@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5651736-a423-4fa3-b366-6e77e49a0f81" name="Changes" comment="Initial 3 questions in Assignment 1. 3rd wrong">
+    <list default="true" id="b5651736-a423-4fa3-b366-6e77e49a0f81" name="Changes" comment="Assignment 2 Final">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Readfile.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Testing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/classtest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/factorialnum.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/CheckingAccount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/CheckingAccount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.2/update/update_cache_3/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.2/update/update_cache_3/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.2/classes/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.2/classes/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.2/classes/BankAccount.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.2/classes/BankAccount.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.2/classes/CheckingAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.2/classes/CheckingAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.2/classes/CheckingAccount.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.2/classes/CheckingAccount.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.2/classes/Trans$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.2/classes/Trans$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.2/classes/Trans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.2/classes/Trans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.2/classes/Trans.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.2/classes/Trans.tasty" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +59,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.scala.settings.ScalaProjectSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.fileread">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="scalatraining" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Trans" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Trans" />
       <module name="scalatraining" />
@@ -59,8 +74,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="fileread" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="fileread" />
+      <module name="scalatraining" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fileread" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Trans" />
       </list>
     </recent_temporary>
@@ -105,13 +129,39 @@
       <option name="project" value="LOCAL" />
       <updated>1677122184852</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial 3 questions in Assignment 1. 3rd wrong">
+      <created>1677157064135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677157064135</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial 3 questions in Assignment 1. 3rd wrong">
+      <created>1677157080427</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677157080427</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial 2 questions in Assignment 1" />
     <MESSAGE value="Initial 3 questions in Assignment 1. 3rd wrong" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial 3 questions in Assignment 1. 3rd wrong" />
+    <MESSAGE value="Assignment 2 Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 Final" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
